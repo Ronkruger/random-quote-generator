@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mochiy+Pop+One&display=swap');
 body{
-    background: #06BDC1;
-    background: -webkit-radial-gradient(center, #06BDC1, #68469F);
-    background: -moz-radial-gradient(center, #06BDC1, #68469F);
-    background: radial-gradient(ellipse at center, #06BDC1, #68469F);
+    background-image: url('wallpaperflare.com_wallpaper\ \(5\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     width: 900px;
@@ -48,6 +47,7 @@ nav h1{
     font-size: 20px;
     top: 95%;
     left: 47%;
+    color: #f4d1ae;
 }
 .quotes p, .quotes h3{
     font-size: 1.5rem;

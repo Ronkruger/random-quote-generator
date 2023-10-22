@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mochiy+Pop+One&display=swap');
+body{
+    background: #06BDC1;
+    background: -webkit-radial-gradient(center, #06BDC1, #68469F);
+    background: -moz-radial-gradient(center, #06BDC1, #68469F);
+    background: radial-gradient(ellipse at center, #06BDC1, #68469F);
+}
+.container{
+    width: 900px;
+    height: 550px;
+    display: flex;
+    position: relative;
+    transform: translate(2%, 30%);
+}
+.btn-info{
+    position: relative;
+    width: 150px;
+    height: 80px;
+    margin-top: 9rem;
+}
+.quotes{
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+}
+nav h1{
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+#quote{
+    font-family: 'Dancing Script', cursive;
+}
+#author{
+    font-family: 'Dancing Script', cursive;
+}
+#footer{
+    position: absolute;
+    font-size: 20px;
+    top: 95%;
+    left: 47%;
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+@media(max-width: 1280px){
+    .container{
+        width: 900px;
+        height: 550px;
+        display: flex;
+        position: relative;
+        transform: translate(-5%, 30%);
+}
+}
+@media(max-width: 1024px){
+    .container{
+        width: 900px;
+        height: 550px;
+        display: flex;
+        position: relative;
+        transform: translate(-5%, 30%);
+}
+}
+@media(max-width:768px){
+    .container{
+        width: 900px;
+        height: 550px;
+        display: flex;
+        position: relative;
+        transform: translate(-5%, 30%);
+    }
+}
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+    .container{
+        width: 900px;
+        height: 550px;
+        display: flex;
+        position: relative;
+        transform: translate(-4.5%, 20%);
+    }
+}
+@media(max-width: 320px){
+    .container{
+        width: 900px;
+        height: 550px;
+        display: flex;
+        position: relative;
+        transform: translate(-5%, 22%);
+    }
+}
+@media(max-width: 240px){
+    .container{
+        width: 900px;
+        height: 550px;
+        display: flex;
+        position: relative;
+        transform: translate(-9%, 20%);
+    }
+}
